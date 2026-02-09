@@ -1,0 +1,73 @@
+.skin-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.skin-icon {
+  width: 48px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 4px;
+  background: var(--bg-tertiary);
+  padding: 4px;
+}
+
+.skin-name {
+  font-weight: 500;
+  color: var(--text-primary);
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.order-type {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.icon-buy {
+  color: var(--accent-primary);
+}
+
+.icon-sell {
+  color: var(--accent-secondary);
+}
+
+.type-buy {
+  color: var(--accent-primary);
+}
+
+.type-sell {
+  color: var(--accent-secondary);
+}
+
+.price-cell {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.profit-positive {
+  color: var(--status-profit);
+  font-weight: 600;
+}
+
+.profit-negative {
+  color: var(--status-loss);
+  font-weight: 600;
+}
+
+.date-cell {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
